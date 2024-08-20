@@ -1,0 +1,18 @@
+<html>
+<input type="password" id="pas">
+<button id="btn" onclick="password()">show</button>
+<script>
+    function password(){
+        let a=document.getElementById("pas")
+    let b=document.getElementById("btn")
+    if(a.type==="password"){
+        a.type="text";
+        b.textContent="Hide";
+    }
+    else{
+        a.type="password";
+        b.textContent="show";
+    }
+    }
+</script>
+</html>
